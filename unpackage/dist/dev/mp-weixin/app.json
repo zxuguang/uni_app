@@ -1,13 +1,45 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/home/home",
+    "pages/cate/cate",
+    "pages/cart/cart",
+    "pages/my/my"
   ],
   "subPackages": [],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "唯品副食",
+    "navigationBarBackgroundColor": "#C00000",
+    "backgroundColor": "#C00000"
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/wxb主页.png",
+        "selectedIconPath": "static/主页.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "static/应用中心.png",
+        "selectedIconPath": "static/分类or广场or其他_填充.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/3.1购物车-选中.png",
+        "selectedIconPath": "static/购物车.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/用户 (1).png",
+        "selectedIconPath": "static/用户.png"
+      }
+    ]
   },
   "usingComponents": {}
 }
