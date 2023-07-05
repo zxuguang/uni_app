@@ -37,13 +37,39 @@
             
         }
     ],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+
+			{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "唯品副食",
 		"navigationBarBackgroundColor": "#C00000",
 		"backgroundColor": "#C00000",
 		"app-plus": {
-			"background": "#efeff4"
+			"background": "#FFFFFF"
 		}
 	},
 	"tabBar": {
